@@ -1,75 +1,44 @@
 # Meeting Notes Summarizer
 
-📝 **Transform messy meeting notes into clear, actionable summaries**
+Explores organizing meeting notes into summaries using local demonstration logic.
 
-## Description
-The Meeting Notes Summarizer automatically converts raw meeting notes into organized summaries with decisions, action items, and key highlights. Perfect for busy teams who need quick post-meeting documentation.
+## Status
 
-## Features
-- 🎯 **Smart Categorization**: Automatically separates decisions, actions, and highlights
-- ⚡ **Instant Processing**: Transform notes in seconds
-- 📋 **Action-Oriented**: Clear owners and deadlines identification
-- 🔄 **Team Ready**: Shareable summaries that everyone can understand
-- 📱 **Easy Input**: Paste any type of meeting notes
+**Browser-based portfolio demo.** The checked-in `script.js` uses local
+JavaScript, rules, templates or simulated responses. It does not call a hosted
+LLM API or run a trained local model.
 
-## What It Extracts
-- **Decisions**: Key decisions made during the meeting
-- **Action Items**: Tasks with assigned owners and next steps
-- **Highlights**: Important notes, discussions, and context
+Generated suggestions are demonstration outputs and should be reviewed manually.
 
-## How to Use
-1. Paste your raw meeting notes into the input field
-2. Click "Summarize into key points"
-3. Review the organized categories
-4. Copy and share with your team
-5. Export or use for follow-up communications
+## Try It Locally
 
-## Perfect For
-- Daily stand-ups and sprint planning
-- Client meetings and project updates
-- Team retrospectives and planning sessions
-- Board meetings and strategic discussions
-- One-on-one meetings
+1. Clone this repository.
+2. Open `index.html` in a modern browser.
+3. Use sample or non-sensitive inputs to explore the workflow.
 
-## Technical Details
-- **Technology**: JavaScript, HTML/CSS, Natural Language Processing
-- **Architecture**: Browser-based text analysis and categorization
-- **AI Integration**: Ready for LLM-powered enhancement
+No npm or Python installation is required for this standalone demo.
+Some fonts or styles may load from external CDNs.
 
-## Live Demo
-Try the live demo on my portfolio: [Portfolio Link](https://yourportfolio.com)
+## Repository Layout
 
-## Getting Started
-```bash
-# Clone this repository
-git clone https://github.com/Thankswewin/meeting-notes-summarizer.git
+| File | Purpose |
+| --- | --- |
+| `index.html` | Interface and page markup |
+| `script.js` | Local workflow and demonstration logic |
+| `style.css` | Styling |
 
-# Navigate to the project
-cd meeting-notes-summarizer
+## Development
 
-# Open index.html in your browser
-open index.html
-```
-
-## API Integration
-To use with external AI APIs:
-1. Get your API key from OpenAI or Google
-2. Configure the AI endpoint for enhanced categorization
-3. Deploy to a server for full functionality
-
-## Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-This project is licensed under the MIT License.
+A real model integration would be a separate implementation. Keep provider
+credentials on a backend, never in browser JavaScript, and add appropriate
+validation and tests before using the tool with customer data.
 
 ## Author
-**Philemon Ofotan**
-- GitHub: [@Thankswewin](https://github.com/Thankswewin)
-- LinkedIn: [Philemon Ofotan](https://www.linkedin.com/in/philemon-ofotan-083266368/)
-- Email: pheelymon@gmail.com
 
-## Support
-If you find this useful, please give it a ⭐️
+[Philemon Ofotan](https://github.com/Thankswewin), founder of
+[Archyy Studio](https://archyy.live).
 
-#Productivity #MeetingNotes #TeamCollaboration
+## License
+
+This project is licensed under the MIT License.
+
